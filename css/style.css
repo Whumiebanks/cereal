@@ -1,0 +1,116 @@
+#body {
+  margin: 50px;
+  font-size: 20px;
+}
+
+.container {
+  color: darkblue;
+  font-size: 20px;
+  text-align: center;
+}
+
+.branch {
+  font-size: 25px;
+  background-color: white;
+  color: black;
+  float: left;
+  padding: 10px;
+}
+.branch ul {
+  padding: 0;
+  padding-left: 20px;
+  background-color: white;
+}
+.branch li {
+  padding-bottom: 6px;
+  list-style-image: url("images/check.png");
+  background-color: white;
+}
+.newsletter {
+  text-align: CENTER;
+  background-color: VIOLET;
+  color: WHITE;
+  padding: 20px;
+}
+.copy {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(248, 211, 211);
+}
+li {
+  float: right;
+}
+li a:hover .dropdown:hover {
+  background-color: red;
+}
+li.dropdown {
+  display: inline-block;
+}
+li a,
+.dropbtn {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: rgb(88, 59, 253);
+  padding: 14px 16px;
+}
+.heading {
+  border: 1;
+  background-color: white;
+  color: black;
+  width: 800px;
+}
+.head {
+  background-color: lightblue;
+}
+.info {
+  text-align: left;
+  font-size: 25px;
+}
+.my-form {
+  padding: 20px;
+}
+
+.form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+.my-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+#NMF {
+  border-radius: 20px;
+}
+.button {
+  background-color: rgb(196, 193, 193);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+a:hover {
+  color: red;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
